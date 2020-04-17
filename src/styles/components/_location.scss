@@ -1,0 +1,68 @@
+.location {
+  &__btn {
+    background: transparent;
+    border: 1px solid #3657FF;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    &-icon {
+      height: 20px;
+      fill: #3657FF;
+      vertical-align: middle;
+    }
+
+    span {
+      color: #3657FF;
+      font-size: 14px;
+      font-weight: 500;
+      vertical-align: middle;
+    }
+  }
+
+  &__form {
+    width: 70%;
+  }
+
+  &__suggestion {
+    margin-right: 10px;
+    background: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #92B4F4;
+    border-radius: 4px;
+    color: rgba(5, 6, 9, 0.7);
+    font-size: 12px;
+    cursor: pointer;
+
+    &:hover {
+      border: 1px solid #3657FF;
+    }
+
+
+    &-wrap {
+      margin-bottom: 30px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+
+  &__map {
+    width: 100%;
+    height: 350px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width:700px) {
+  .location__form {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width:481px) {
+  .location__form {
+    width: 100%;
+  }
+}

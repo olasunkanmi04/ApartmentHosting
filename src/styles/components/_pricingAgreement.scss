@@ -1,0 +1,67 @@
+.priceAgree {
+  &__info {
+    color: rgba(#000000, 0.8);
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: normal;
+    margin-bottom: 24px;
+  }
+
+  &__title {
+    font-size: 18px;
+    color: rgba(#000000, 0.8);
+    font-weight: 500;
+    margin-bottom: 12px;
+  }
+
+  &__modal {
+    .v--modal {
+      max-width: 394px !important;
+      max-height: 250px !important;
+      top: 170px !important;
+    }
+
+    &-text {
+      color: rgba(5, 6, 9, 0.7);
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 28px;
+      text-align: center;
+    }
+
+    .modal__wrap {
+      margin-top: 44px;
+    }
+
+    &-info {
+      font-size: 16px;
+      color: rgba(5, 6, 9, 0.7);
+      text-align: center;
+    }
+  }
+}
+
+.declineBtn {
+  border: 1px solid #3657ff;
+  color: #3657ff;
+  background: transparent;
+  padding: 8px 30px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.tip {
+  color: #3657ff;
+  font-weight: 500;
+  font-size: 16px;
+  margin-right: 10px;
+
+  &__info {
+    color: rgba(5, 6, 9, 0.7);
+    font-size: 13px;
+    font-weight: normal;
+    line-height: normal;
+    margin-bottom: 0;
+  }
+}

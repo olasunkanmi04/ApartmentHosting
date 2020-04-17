@@ -1,0 +1,86 @@
+.navbar {
+  &__wrap {
+    background-color: #fff;
+    height: 70px;
+    width: 100%;
+    padding: 10px;
+    padding-right: 30px;
+    z-index: 1;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    position: fixed;
+  }
+
+  &__item {
+    display: flex;
+    margin-bottom: 0;
+    align-items: center;
+
+    &-link {
+      font-size: 14px;
+      font-weight: 500;
+      margin-right: 30px;
+
+      a {
+        color: rgba(#000000,0.8);
+
+        &:hover {
+          color: rgba(#000000,0.8);
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  &__link {
+    &-wrap {
+      display: flex;
+      margin-left: auto;
+      align-items: center;
+      margin-bottom: 0;
+    }
+  }
+
+  &__logo {
+    width: 40px;
+    height: 40px;
+    margin-left: 90px;
+  }
+
+  &__profile {
+    border: 2px solid #3657ff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    overflow: hidden;
+
+    &-name {
+      color: #3657ff;
+      text-transform: capitalize;
+    }
+
+    &-wrap {
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+
+
+@media screen and (max-width:600px) {
+  .navbar__link-wrap {
+    display: none;
+  }
+
+  .navbar__profile-wrap {
+    padding: 20px;
+  }
+
+  .navbar__profile-name {
+    margin-left: 10px;
+  }
+}

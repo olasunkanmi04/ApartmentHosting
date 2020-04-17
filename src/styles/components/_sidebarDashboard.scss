@@ -1,0 +1,165 @@
+.sidebar {
+  width: fit-content;
+  height: 100%;
+  background: #FFFFFF;
+  position: fixed;
+  color: #545454;
+  padding: 0px 0px 30px;
+  transition: all 0.3s;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  top: 0;
+  -webkit-box-align: center;
+  z-index: 1;
+
+  &__link {
+    text-align: left;
+    padding: 5px 20px;
+    display: block;
+    align-items: left;
+    margin-top: 20px;
+    cursor: pointer;
+    border-right: 3px solid transparent;
+    color: rgba(#000000,0.8);
+
+    &.active {
+      display: block;
+      align-items: center;
+      -webkit-box-align: center;
+      white-space: nowrap;
+
+      .sidebar__icon {
+        fill: #3657FF;
+      }
+
+      span {
+        text-decoration: none;
+        color: #3657FF;
+      }
+    }
+
+    &:hover {
+      border-right-color: #3657ff;
+      fill: #3657ff;
+      left: 0;
+      color: #3657FF;
+      text-decoration: none;
+
+      span {
+        color: #3657FF;
+      }
+    }
+  }
+
+  &__menu {
+    color: rgba(#000000,0.8);
+    font-size: 14px;
+    display: block;
+    line-height: 30px;
+    -webkit-box-align: center;
+    white-space: nowrap;
+    text-decoration: none;
+
+
+
+    &.logout {
+      position: absolute;
+      width: 100%;
+      bottom: 20px;
+    }
+
+    span {
+      padding-left: 10px;
+    }
+  }
+
+  &__submenu {
+    margin-left: 50px;
+    padding-right: 20px;
+
+    &-list {
+      margin-bottom: 10px;
+      text-align: left;
+      display: block;
+      align-items: left;
+      cursor: pointer;
+
+      span {
+        color: rgba(#000000,0.8);
+      }
+
+      a {
+        &:hover {
+          text-decoration: none;
+        }
+      }
+
+      .active {
+        display: block;
+        align-items: center;
+        -webkit-box-align: center;
+        white-space: nowrap;
+
+        span {
+          text-decoration: none;
+          color: #3657FF;
+        }
+      }
+
+      &:hover {
+        fill: #3657ff;
+        left: 0;
+        color: #3657FF;
+        text-decoration: none;
+
+        span {
+          color: #3657FF;
+        }
+      }
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  &__wrap {
+    margin-top: 88px;
+  }
+
+  &__profile {
+    display: none;
+
+  }
+
+  &__icon {
+    height: 18px;
+    width: 18px;
+  }
+
+  &__toggle {
+    &-icon {
+      height: 20px;
+      width: 20px;
+      fill: #3657FF;
+
+
+    }
+  }
+}
+
+@media screen and (max-width:600px) {
+  .sidebar__profile {
+    display: block;
+  }
+
+  .sidebar__toggle {
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width:450px) {
+  .sidebar__hide {
+    display: none;
+  }
+}

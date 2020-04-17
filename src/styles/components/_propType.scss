@@ -1,0 +1,38 @@
+.listing {
+  &__wrap {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: transparent;
+    padding-top: 154px;
+    padding-bottom: 100px;
+  }
+
+  &__title {
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 26px;
+  }
+
+  &__container {
+    background-color: #fff;
+    padding: 30px;
+    border: 1px solid #CFDEE7;
+    box-sizing: border-box;
+    border-radius: 8px;
+  }
+}
+
+@media screen and (max-width:990px) {
+  .listing__wrap {
+    padding-top: 254px;
+  }
+}
+
+@media screen and (max-width:520px) {
+  .listing__wrap {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

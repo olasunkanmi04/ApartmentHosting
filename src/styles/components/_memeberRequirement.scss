@@ -1,0 +1,128 @@
+.memRequire {
+
+  &__spleet {
+    color: rgba(#000000, 0.8);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+
+    &-modal {
+      color: #3657ff;
+      font-size: 18px;
+      font-weight: 500;
+      cursor: pointer;
+
+      &-title {
+        color: rgba(#000000, 0.8);
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 28px;
+        margin-bottom: 14px;
+      }
+
+      &-icon {
+        width: 18px;
+        height: 18px;
+        fill: #3657ff;
+      }
+
+      &-info {
+        margin-left: 20px;
+
+        &-title {
+          font-size: 16px;
+          color: rgba(#000000, 0.8);
+          font-weight: 500;
+          margin-bottom: 2px;
+        }
+
+        &-sub {
+          color: rgba(5, 6, 9, 0.7);
+          font-size: 14px;
+          line-height: 22px;
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+
+  &__host {
+    margin-top: 30px;
+  }
+
+  &__form {
+    &-check {
+      &-container {
+        display: block;
+        cursor: pointer;
+        font-size: 12px;
+        color: rgba(#000000, 0.8);
+        margin-right: 20px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        margin: 0;
+
+        &:last-child {
+          margin-left: 20px;
+        }
+
+        input {
+          position: absolute;
+          opacity: 0;
+          cursor: pointer;
+          padding-right: 12px !important;
+          top: 50%;
+          transform: translateY(-50%);
+
+          &:checked~.memRequire__form-check-checkmark {
+            fill: #3657ff;
+          }
+        }
+      }
+
+      &-label {
+        margin-left: 23px;
+        display: block;
+        font-size: 14px;
+        color: rgba(5, 6, 9, 0.7);
+      }
+
+      &-checkmark {
+        height: 30px;
+        width: 30px;
+        fill: rgba(#A2A2A2, 0.35);
+      }
+    }
+  }
+
+  &__label {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(5, 6, 9, 0.7);
+    margin-bottom: 0;
+  }
+
+  &__row {
+    margin-bottom: 20px;
+  }
+
+  &__tooltip {
+    width: 16px;
+    height: 16px;
+    fill: rgba(#A2A2A2, 0.7);
+    cursor: pointer;
+
+    &-wrap {
+      height: fit-content;
+      margin-left: 10px;
+    }
+  }
+}
+
+@media screen and (max-width:768px) {
+  .memRequire__tooltip {
+    display: none;
+  }
+}

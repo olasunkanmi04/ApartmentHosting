@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_269" data-name="Rectangle 269" width="20" height="20" transform="translate(50 134)" fill="#545454"/>
+    </clipPath>
+  </defs>
+  <g id="Home" transform="translate(-50 -134)" clip-path="url(#clip-path)">
+    <path id="Path_411" data-name="Path 411" d="M69.787,142.127l-9.48-6.941a.519.519,0,0,0-.614,0l-9.48,6.941a.52.52,0,1,0,.614.839L60,136.25l9.173,6.716a.521.521,0,0,0,.726-.112A.52.52,0,0,0,69.787,142.127Z" fill="#545454"/>
+    <path id="Path_412" data-name="Path 412" d="M67.275,143.084a.519.519,0,0,0-.52.519v8.272H62.6V147.36a2.6,2.6,0,1,0-5.2,0v4.515H53.244V143.6a.52.52,0,0,0-1.039,0V152.4a.519.519,0,0,0,.52.519h5.2a.519.519,0,0,0,.518-.479.4.4,0,0,0,0-.04V147.36a1.559,1.559,0,0,1,3.118,0V152.4a.4.4,0,0,0,0,.04.519.519,0,0,0,.518.479h5.2a.519.519,0,0,0,.52-.519V143.6A.519.519,0,0,0,67.275,143.084Z" fill="#545454"/>
+  </g>
+</svg>

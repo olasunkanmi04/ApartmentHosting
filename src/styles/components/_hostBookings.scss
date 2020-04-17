@@ -1,0 +1,235 @@
+.bookingList {
+  &__memberName {
+    width: 20%;
+  }
+
+  &__spaceName {
+    width: 20%;
+  }
+
+  &__planType {
+    width: 12%;
+  }
+
+  &__amount {
+    width: 12%;
+  }
+
+  &__status {
+    width: 12%;
+  }
+
+  &__action {
+    width: 12%;
+
+    &-btn {
+      border: 1px solid rgba(0, 0, 0, 0.6);
+      line-height: 1.5;
+      height: 40px;
+      border-radius: 2px;
+      font-size: 13px;
+      font-weight: normal;
+      color: rgba(#000000,0.8);
+      margin-bottom: 0;
+      padding: 0 15px;
+      background: transparent;
+
+      &:hover {
+        border: 1px solid #3675ff;
+
+      }
+    }
+  }
+
+  &__date {
+    width: 12%;
+  }
+
+  &__table {
+    &-wrapper {
+      min-width: 1100px;
+    }
+  }
+
+  &__modal {
+    .modal__wrap {
+      margin-top: 0;
+    }
+
+    .v--modal {
+      background-color: #fff !important;
+      max-width: 550px !important;
+      height: fit-content !important;
+      padding-bottom: 30px;
+    }
+
+    .modal__profile-wrap {
+      width: 100%;
+      height: 150px;
+      background-color: #2c2c2c;
+      background-image: linear-gradient(90deg, #2c2c2c 0%, #454545 70%);
+      border-top-left-radius: 3px;
+      border-top-right-radius: 3px;
+      margin-top: -2px;
+
+    }
+
+    .modal__profile-wrapper {
+      display: flex;
+      align-items: center;
+      height: 150px;
+    }
+
+    .modal__profile-img-wrap {
+      height: 84px;
+      width: 84px;
+      overflow: hidden;
+      border-radius: 50%;
+      margin-left: 50px;
+    }
+
+    .modal__profile-detail {
+      margin-left: 20px;
+      line-height: 0px;
+    }
+
+    .modal__profile {
+      &-name {
+        font-weight: bold;
+        font-size: 20px;
+        color: #fff;
+        margin-bottom: 0px;
+        line-height: 30px;
+      }
+
+      &-role {
+        line-height: 21px;
+        font-size: 14px;
+        color: #fff;
+        margin-bottom: 3px;
+      }
+
+      &-location {
+        line-height: 21px;
+        color: #fff;
+        font-size: 14px;
+        margin-bottom: 0;
+      }
+    }
+
+    .modal__property {
+      padding: 0 50px;
+
+      &-title {
+        font-size: 16px;
+        font-weight: 500;
+        color: rgba(#000000,0.8);
+        line-height: 24px;
+      }
+
+      &-name {
+        color: rgba(#000000, 0.7);
+        font-size: 14px;
+        float: right;
+        line-height: 21px;
+      }
+
+      &-info {
+        border-bottom: 1px solid #C3CCFF;
+        line-height: 0;
+        padding: 20px 0;
+      }
+    }
+
+    .modal__action {
+      margin-top: 16px;
+      line-height: normal;
+      margin-bottom: 3px;
+    }
+
+    .modal__close-btn {
+      line-height: normal;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+    }
+
+    .modal__close {
+      fill: #fff;
+    }
+
+    .modal__confirmation {
+      .v--modal {
+        max-width: 394px !important;
+        max-height: 180px !important;
+        top: 170px !important;
+      }
+
+      .vue-dialog .dialog-content {
+        line-height: normal;
+      }
+
+      .vue-dialog .vue-dialog-buttons {
+        line-height: normal;
+      }
+
+    }
+  }
+}
+
+.toast-container>div {
+  opacity: 1 !important;
+}
+
+.modal__decline-opt {
+  .v--modal {
+    line-height: normal;
+    padding: 20px !important;
+    max-width: 500px !important;
+  }
+
+  .form__check-label {
+    line-height: normal;
+  }
+
+  .modal__footer {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    width: fit-content;
+    float: right;
+  }
+}
+
+.declineModal {
+  &__title {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    color: rgba(#000000,0.8);
+    line-height: normal;
+  }
+
+}
+
+.toast-message {
+  font-family: "Sailec", sans-serif !important;
+  color: rgba(#000000,0.8);
+  font-weight: 500 !important;
+}
+
+@media (max-width: 480px) and (min-width: 241px) {
+  .toast-container>div {
+    width: 39em;
+  }
+}
+
+@media screen and (max-width:347px) {
+  .bookingList__modal .modal__profile-img-wrap {
+    margin-left: 20px;
+  }
+
+  .bookingList__modal .modal__property {
+    padding: 0 20px;
+  }
+}

@@ -1,0 +1,106 @@
+.form {
+  &__upload {
+    width: 100%;
+    height: 138px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #CFDEE7;
+    box-sizing: border-box;
+    margin-bottom: 13px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+  }
+}
+
+.identification {
+  &__upload {
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    cursor: pointer;
+
+    &.selfie {
+      width: 152.64px;
+    }
+
+    &-placeholder {
+      width: 40px;
+      height: 40px;
+      fill: rgba(0, 0, 0, 0.3);
+      margin-bottom: 5px;
+
+      &-wrap {
+        position: absolute;
+        top: 50%;
+        margin-top: -34.5px;
+        left: 50%;
+        margin-left: -80.04px;
+        text-align: center;
+      }
+    }
+
+    &-wrap {
+      margin-right: auto;
+    }
+  }
+
+  &__modal {
+    .v--modal {
+      max-width: 394px !important;
+      min-height: 494px !important;
+      height: fit-content !important;
+    }
+
+    &-wrap {
+      padding-top: 0 !important;
+      padding: 20px;
+    }
+
+    .modal__wrap {
+      max-height: 75%;
+    }
+  }
+
+  &__focus {
+    border: 3px solid #3657ff;
+    border-radius: 50%;
+    width: 150px;
+    height: 180px;
+    position: absolute;
+    left: 50%;
+    margin-left: -75px;
+    top: 50%;
+    margin-top: -95px;
+  }
+
+  &__wrap {
+    position: relative;
+    flex-wrap: wrap;
+  }
+}
+
+.camera {
+  &__icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -20px;
+    margin-top: -20px;
+  }
+}
+
+@media screen and (max-width:659px) {
+  .identification__divider {
+    display: none;
+  }
+
+  .form__upload-wrap {
+    margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}

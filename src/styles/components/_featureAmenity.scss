@@ -1,0 +1,35 @@
+.amenity {
+  border-bottom: 1px solid rgba(162, 162, 162, 0.35);
+  margin-top: 20px;
+
+  &:first-child {
+    margin-top: 30px;
+  }
+
+  &__wrap {
+    display: flex;
+    flex-wrap: wrap;
+
+    .form__add {
+      margin-left: auto;
+    }
+  }
+}
+
+@media screen and (max-width:655px) {
+  .amenity {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:341px) {
+  .amenity__wrap {
+    .form__add {
+      margin-left: 0;
+    }
+
+    .form__section-title {
+      margin-bottom: 5px;
+    }
+  }
+}

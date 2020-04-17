@@ -1,0 +1,41 @@
+.personal {
+  &__privacy {
+    font-size: 14px;
+    color: rgba(#3657ff, 0.7);
+    text-decoration: underline;
+
+
+    &:hover {
+      color: rgba(#3657ff, 0.7);
+      text-decoration: underline;
+    }
+  }
+
+  &__verified {
+    fill: #3657ff;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 14px;
+    top: 50%;
+    margin-top: -10px;
+  }
+
+  &__gender {
+    width: 47%;
+  }
+
+  &__day {
+    width: 23%;
+  }
+
+  &__month {
+    width: 45%;
+    margin-left: auto;
+  }
+
+  &__year {
+    width: 26%;
+    margin-left: auto;
+  }
+}

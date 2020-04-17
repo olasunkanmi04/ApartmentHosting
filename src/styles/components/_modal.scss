@@ -1,0 +1,140 @@
+.v--modal-overlay {
+  background: rgba(5, 6, 9, 0.76) !important;
+}
+
+.v--modal {
+  background-color: #F4F4F4 !important;
+  height: 800px !important;
+  max-height: 90vh !important;
+  top: 30px !important;
+  width: 100% !important;
+  bottom: 37px !important;
+  max-width: 768px !important;
+  margin: 0 auto !important;
+  left: 0 !important
+}
+
+.modal {
+  &__heading {
+    padding: 20px;
+    padding-bottom: 0;
+  }
+
+  &__wrap {
+    position: relative;
+    max-height: 65%;
+    width: 100%;
+    margin-top: 18px;
+    overflow: scroll;
+    padding-top: 1px;
+  }
+
+  &__close {
+    fill: rgba(#3657FF, 0.5);
+    height: 30px;
+    width: 30px;
+
+    &-btn {
+      background: transparent;
+      border: none;
+      padding: 0;
+      margin-bottom: 10px;
+    }
+  }
+
+  &__title {
+    color: rgba(#000000,0.8);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 29px;
+    margin-bottom: 5px;
+
+    &-sub {
+      color: rgba(5, 6, 9, 0.7);
+      font-size: 12px;
+      line-height: 17px;
+    }
+  }
+
+  &__body {
+    .form__check-label {
+      max-width: 82%;
+    }
+  }
+
+  &__icon {
+    &-wrap {
+      position: absolute;
+      top: 46%;
+      -webkit-transform: translateY(-46%);
+      transform: translateY(-46%);
+      right: 12px;
+    }
+
+    height: 15px;
+    width: 15px;
+    fill: rgba(5, 6, 9, 0.7);
+
+  }
+
+  &__amenity {
+    margin-bottom: 15px;
+  }
+
+  &__footer {
+    position: absolute;
+    bottom: 14px;
+    right: 20px;
+  }
+}
+
+
+.vue-dialog {
+  .dialog-c-text {
+    font-size: 16px;
+    color: rgba(#000000,0.8);
+  }
+
+  .vue-dialog-buttons {
+    padding: 0 15px;
+    justify-content: space-between;
+    border-top: 0;
+  }
+}
+
+
+.vue-dialog_btn {
+  flex: none !important;
+  width: 48%;
+}
+
+.dialog-c-title {
+  font-weight: 500;
+  color: rgba(#000000,0.8);
+  font-size: 16px;
+}
+
+
+@media screen and (max-width:768px) {
+  .v--modal {
+    top: 0 !important;
+  }
+
+  .modal__body {
+    .form__check-label {
+      max-width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width:600px) {
+  .modal__footer {
+    bottom: initial;
+  }
+
+  .v--modal {
+    bottom: 0 !important;
+    max-height: 100vh !important;
+    height: 100vh !important;
+  }
+}

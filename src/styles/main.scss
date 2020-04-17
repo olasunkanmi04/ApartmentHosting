@@ -1,0 +1,47 @@
+/* CORE */
+@import "core/reset";
+@import "core/normalize";
+@import "core/mixins";
+@import "core/variables";
+@import "core/fonts";
+/* UTILITIES */
+@import "utilities/typography";
+@import "utilities/utils";
+/* COMPONENTS */
+@import "components/button";
+@import "components/navbar";
+@import "components/footer";
+@import "components/listingNavbar";
+@import "components/listingProgress";
+@import "components/propType";
+@import "components/stepChange";
+@import "components/form";
+@import "components/bedroom";
+@import "components/modal";
+@import "components/featureAmenity";
+@import "components/picture";
+@import "components/location";
+@import "components/register";
+@import "components/listingBreakdown";
+@import "components/memeberRequirement";
+@import "components/tooltip";
+@import "components/subType";
+@import "components/pricing";
+@import "components/pricingAgreement";
+@import "components/updateCalendar";
+@import "components/personalInfo";
+@import "components/identification";
+@import "components/sidebarDashboard";
+@import "components/navbarDashboard.scss";
+@import "components/listingDashboard.scss";
+@import "components/dashboard";
+@import "components/listingViewDashboard.scss";
+@import "components/payment";
+@import "components/hostBookings";
+@import "components/hostSubscription";
+
+/*EXTERNAL STYLES*/
+@import 'node_modules/bootstrap/scss/bootstrap';
+@import 'node_modules/bootstrap-vue/src/index.scss';
+
+/*MODULES*/

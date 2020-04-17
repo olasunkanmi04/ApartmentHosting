@@ -1,0 +1,74 @@
+$font_path: '~@/assets/fonts/';
+
+@font-face {
+  font-family: 'Sailec';
+  src: url($font_path+'Sailec.eot');
+  src: url($font_path+'Sailec.eot?#iefix') format('embedded-opentype'),
+    url($font_path+'Sailec.woff2') format('woff2'),
+    url($font_path+'Sailec.woff') format('woff'),
+    url($font_path+'Sailec.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sailec';
+  src: url($font_path+'Sailec-Thin.eot');
+  src: url($font_path+'Sailec-Thin.eot?#iefix') format('embedded-opentype'),
+    url($font_path+'Sailec-Thin.woff2') format('woff2'),
+    url($font_path+'Sailec-Thin.woff') format('woff'),
+    url($font_path+'Sailec-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sailec';
+  src: url($font_path+'Sailec-Light.eot');
+  src: url($font_path+'Sailec-Light.eot?#iefix') format('embedded-opentype'),
+    url($font_path+'Sailec-Light.woff2') format('woff2'),
+    url($font_path+'Sailec-Light.woff') format('woff'),
+    url($font_path+'Sailec-Light.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sailec';
+  src: url($font_path+'Sailec-Medium.eot');
+  src: url($font_path+'Sailec-Medium.eot?#iefix') format('embedded-opentype'),
+    url($font_path+'Sailec-Medium.woff2') format('woff2'),
+    url($font_path+'Sailec-Medium.woff') format('woff'),
+    url($font_path+'Sailec-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sailec';
+  src: url($font_path+'Sailec-Bold.eot');
+  src: url($font_path+'Sailec-Bold.eot?#iefix') format('embedded-opentype'),
+    url($font_path+'Sailec-Bold.woff2') format('woff2'),
+    url($font_path+'Sailec-Bold.woff') format('woff'),
+    url($font_path+'Sailec-Bold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sailec';
+  src: url($font_path+'Sailec-Black.otf') format('otf');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'monaco';
+  src: url('/../fonts/manaco.ttf') format('ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: Avenir, sans-serif !important;
+}
