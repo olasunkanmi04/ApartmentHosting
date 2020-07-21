@@ -1,5 +1,3 @@
-# cms-frontend
-
 [![Netlify Status](https://api.netlify.com/api/v1/badges/b8852e80-5a0c-40e8-9304-847224720390/deploy-status)](https://app.netlify.com/sites/spleet/deploys)
 
 ## Build Setup
