@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const req = axios.create();
-const __KEY = "AIzaSyBMAYODSWcmdTJ5cZ5tErd2OwZJshPCdDE";
+const __KEY = "use_your_key";
 
 export function currentCoordinates() {
   return new Promise((resolve, reject) => {
